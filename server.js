@@ -21,7 +21,7 @@ app.use(
   
 const storage = new Storage({
   keyFilename: path.join(__dirname, 'google-cloud-key.json'), // Path to your service account key JSON file
-  projectId: 'gcds-oht33885u6-2023', // Your Google Cloud project ID
+  projectId: 'xxxxxxxxxxx', // Your Google Cloud project ID
 });
 
 const bucketName = 'viking_images'; // Your Google Cloud Storage bucket name
